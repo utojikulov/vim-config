@@ -2,18 +2,17 @@
 local M = {}
 
 M.base46 = {
-  theme = "rosepine",
+  theme = "github_dark",
   transparency = true,
-  statusline = {
-    theme = "vscode_colored",
-  },
+  telescope = { style = "borderless" },
+--   statusline = {
+--     theme = "vscode",
+--   },
   hl_override = {
     Comment = { italic = true },
     ["@comment"] = { italic = true },
+
   },
 }
 
-M.ui = {
-  telescope = { style = "borderless" }
-}
 return M
